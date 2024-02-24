@@ -6,7 +6,7 @@ const NavBarItems = ({ title, classProps }) => {
   return <li className={`mx-4 cursor-pointer ${classProps}`}>{title}</li>;
 };
 
-const NavBar = () => {
+const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <nav className="w-full flex md:justify-center justify-between items-center p-4">
@@ -63,4 +63,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default Navbar;
